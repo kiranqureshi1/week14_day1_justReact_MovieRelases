@@ -39,6 +39,10 @@ class ImdbBox extends Component{
     }
   }
 
+  moreMovies(){
+
+  }
+
 
 
 
@@ -47,7 +51,9 @@ class ImdbBox extends Component{
       <div className="comment-Box">
       <h1>Upcoming Film Realse For UK</h1>
       <CommentList data={this.state.data}/>
-      <button onClick = {}>View More UpComing Releases</button>
+      <button>
+      <a href= "https://www.imdb.com/calendar/?region=gb">View More UpComing Releases</a>
+      </button>
       </div>
     )
   }
